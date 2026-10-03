@@ -1,0 +1,11 @@
+cmake_minium_required(VERSION 3.16)
+project(nexte-hw02 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDAND_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_executable(streak src/streak.cpp)
+add_executable(unique_ids src/unique_ids.cpp)
+add_executable(range_sum src/range_sum.cpp) 
+
