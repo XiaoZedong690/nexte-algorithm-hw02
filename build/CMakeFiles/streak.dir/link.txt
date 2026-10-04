@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/streak.dir/src/streak.cpp.o -o streak 
